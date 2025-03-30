@@ -43,7 +43,7 @@ function App() {
       setTopItems(userTopItems);
     } catch (err) {
       console.error('Login failed:', err);
-      setError('Failed to login with Spotify. Please try again.');
+      setError('Failed to login with Spotify. Please try again later.');
     } finally {
       setLoading(false);
     }
